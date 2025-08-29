@@ -35,6 +35,12 @@ function Portfolio() {
       link: "https://alisblogg.netlify.app/",
     },
     {
+      title: "usePopcorn",
+      description: "Movie Tracking App",
+      image: "/images/popcorn.png",
+      link: "https://usee-popcorn.netlify.app/",
+    },
+    {
       title: "The Wild Oasis",
       description: "Full Stack App with Supabase",
       image: "/images/wild.png",
@@ -43,7 +49,7 @@ function Portfolio() {
   ];
   return (
     <motion.div
-      className="flex flex-col gap-5 overflow-y-scroll max-lg:overflow-y-visible"
+      className="flex flex-col gap-5 max-lg:overflow-y-visible"
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -10 }}

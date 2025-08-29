@@ -15,7 +15,7 @@ import SkillCard from "../components/SkillCard";
 function Resume() {
   return (
     <motion.div
-      className="flex flex-col gap-6 pb-15 max-lg:pb-5 overflow-y-scroll"
+      className="flex flex-col gap-6 pb-15 max-lg:pb-5 "
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -10 }}
