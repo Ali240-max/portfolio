@@ -1,8 +1,11 @@
+import { Link } from "react-router";
+
 function ProjectCard({ projects }) {
   return (
-    <div
+    <Link
       className="p-[1px] bg-gradient-to-br from-gray-700 to-transparent rounded-xl transition-all duration-300 flex-1 text-white cursor-pointer group min-w-60 max-w-60 max-xs:min-w-70 hover:translate-y-[-5px]"
-      onClick={() => window.open(projects.link, "_blank")}
+      // onClick={() => window.open(projects.link, "_blank")}
+      to={`/portfolio/${projects.id}`}
     >
       <div className="flex flex-col bg-[#202022] rounded-xl shadow-xl overflow-hidden">
         <img
@@ -17,7 +20,7 @@ function ProjectCard({ projects }) {
           </p>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }
 

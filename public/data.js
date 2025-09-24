@@ -1,0 +1,122 @@
+export const project = [
+  {
+    id: 1,
+    title: "WorldWise",
+    description:
+      "WorldWise is an application to track your travel locations. Users can save pins on a map and keep a record of all the places they have traveled. Built with React, Context API, Redux, and Leaflet for map rendering.",
+    tech: [
+      "React",
+      "Context API",
+      "Redux",
+      "Leaflet",
+      "React Router",
+      "Netlify",
+    ],
+    image: "/images/worldwise.png",
+    link: "https://wworldwisee.netlify.app/",
+    github: "https://github.com/Ali240-max/worldwise",
+  },
+  {
+    id: 2,
+    title: "The Wild Oasis - Admin",
+    description:
+      "The Wild Oasis Admin is a management platform for a cabin rental company with 8 cabins. Admins can manage bookings, update cabin details, and control settings. Built with React, Tailwind CSS, Redux, React Query, and Supabase as backend.",
+    tech: [
+      "React",
+      "Tailwind CSS",
+      "Redux",
+      "React Query",
+      "Supabase",
+      "React Router",
+      "React Hook Form",
+      "Netlify",
+    ],
+    image: "/images/wild.png",
+    link: "https://the-wwild-oasis.netlify.app/",
+    github: "https://github.com/Ali240-max/the-wild-oasis",
+  },
+  {
+    id: 3,
+    title: "The Wild Oasis - Client",
+    description:
+      "The Wild Oasis Client is the customer-facing website for exploring and booking cabins. Clients can sign in, select dates, and make reservations. Built with Next.js (SSR), Tailwind CSS, Supabase, and Auth.js for authentication.",
+    tech: [
+      "Next.js",
+      "SSR",
+      "Tailwind CSS",
+      "Supabase",
+      "Auth.js",
+      "React Hook Form",
+      "Vercel",
+    ],
+    image: "/images/wild-oasis-client.png",
+    link: "https://the-wild-oasis-website-woad-nine.vercel.app/",
+    github: "https://github.com/Ali240-max/the-wild-oasis-website",
+  },
+  {
+    id: 4,
+    title: "Freelancer Dashboard",
+    description:
+      "Freelancer Dashboard is a productivity tool for freelancers to manage projects, deadlines, and tasks efficiently. Built with React, Tailwind CSS, Redux, and Context API.",
+    tech: [
+      "React",
+      "Tailwind CSS",
+      "Redux",
+      "Context API",
+      "React Router",
+      "React Icons",
+      "Netlify",
+    ],
+    image: "/images/freelance.png",
+    link: "https://freelance-dashboardd.netlify.app/",
+    github: "https://github.com/Ali240-max/freelance-dashboard",
+  },
+  {
+    id: 5,
+    title: "Job Application Tracker",
+    description:
+      "Job Application Tracker helps users manage their job applications by adding company details, status updates, and progress. Developed with React, Tailwind CSS, Redux, and Context API.",
+    tech: [
+      "React",
+      "Tailwind CSS",
+      "Redux",
+      "Context API",
+      "React Router",
+      "React Icons",
+      "Netlify",
+    ],
+    image: "/images/job.png",
+    link: "https://job-applicationn-tracker.netlify.app/dashboard",
+    github: "https://github.com/Ali240-max/job-application",
+  },
+  {
+    id: 6,
+    title: "Taskflow",
+    description:
+      "Taskflow is a fictional landing page for a task management company showcasing its features and design. Built with React, Tailwind CSS, and Framer Motion for smooth animations.",
+    tech: ["React", "Tailwind CSS", "Framer Motion", "React Router", "Netlify"],
+    image: "/images/taskflow.png",
+    link: "https://taskffloww.netlify.app/",
+    github: "https://github.com/Ali240-max/taskflow",
+  },
+  {
+    id: 7,
+    title: "Ali's Blog",
+    description:
+      "Ali's Blog is a simple blog website where users can read posts and explore categories. Made with React, Tailwind CSS, and Context API for state management.",
+    tech: ["React", "Tailwind CSS", "Context API", "React Router", "Netlify"],
+    image: "/images/blog.png",
+    link: "https://alisblogg.netlify.app/",
+    github: "https://github.com/Ali240-max/blog",
+  },
+  {
+    id: 8,
+    title: "usePopcorn",
+    description:
+      "usePopcorn is a movie tracking application where users can log movies they watched, rate them, and add rewatch counts or comments. Built with React.",
+    tech: ["React", "React Router", "Local Storage", "Netlify"],
+    image: "/images/popcorn.png",
+    link: "https://usee-popcorn.netlify.app/",
+    github: "https://github.com/Ali240-max/use-popcorn",
+  },
+];

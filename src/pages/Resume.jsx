@@ -76,6 +76,7 @@ function Resume() {
         {/* Skill cards grid */}
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-xs:grid-cols-1">
           <SkillCard icon={Layout} name="React.js" />
+          <SkillCard icon={Layout} name="NextJs" />
           <SkillCard icon={Server} name="Node.js" />
           <SkillCard icon={Database} name="MongoDB" />
 
