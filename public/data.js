@@ -20,7 +20,7 @@ export const project = [
     id: 2,
     title: "The Wild Oasis - Admin",
     description:
-      "The Wild Oasis Admin is a management platform for a cabin rental company with 8 cabins. Admins can manage bookings, update cabin details, and control settings. Built with React, Tailwind CSS, Redux, React Query, and Supabase as backend.",
+      "The Wild Oasis Admin is a management platform for a cabin rental company with multiple cabins. Admins can add new cabins, manage bookings, update cabin details, and control settings. Built with React, Tailwind CSS, Redux, React Query, and Supabase as backend.",
     tech: [
       "React",
       "Tailwind CSS",
@@ -64,7 +64,7 @@ export const project = [
       "Redux",
       "Context API",
       "React Router",
-      "React Icons",
+      "Recharts",
       "Netlify",
     ],
     image: "/images/freelance.png",
@@ -82,7 +82,7 @@ export const project = [
       "Redux",
       "Context API",
       "React Router",
-      "React Icons",
+      "Lucide React",
       "Netlify",
     ],
     image: "/images/job.png",
